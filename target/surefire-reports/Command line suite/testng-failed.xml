@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.prokarma.appium.test.ViewHomeTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="verifyHomePageLinks"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.prokarma.appium.test.ViewHomeTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
